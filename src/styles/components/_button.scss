@@ -1,0 +1,8 @@
+@import "../_default_includes";
+
+.cm-button {
+  background-color: $accent-color;
+  color: $text-color;
+  padding: $default-spacing;
+  display: inline-block;
+}

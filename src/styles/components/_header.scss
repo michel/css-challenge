@@ -1,0 +1,18 @@
+@import "../_default_includes";
+.cm-header {
+  background: $primary-color;
+  text-align: center;
+  color: $text-color;
+  padding: 2em;
+  .header_container {
+    margin: auto;
+  }
+  h1 {
+    font-size: $font-size-x-large;
+    margin: $default-spacing * 0.5;
+  }
+  p {
+    margin-top: $default-spacing;
+    margin-bottom: 5 * $default-spacing;
+  }
+}

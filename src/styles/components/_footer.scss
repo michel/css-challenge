@@ -1,0 +1,7 @@
+@import "../_default_includes";
+
+.cm-footer {
+  bottom: 0px;
+  /*@include container(12);*/
+  background-color: $secondary-color;
+}
