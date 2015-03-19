@@ -1,0 +1,7 @@
+.cm-block {
+  text-align: center;
+  @include span(1 of 2);
+  &:last-child {
+    @include last;
+  }
+}

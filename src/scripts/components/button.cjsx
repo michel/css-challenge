@@ -1,5 +1,3 @@
-require('../../styles/components/_button.scss');
-
 module.exports = React.createClass
   displayName: 'BUTTON'
   render: ->

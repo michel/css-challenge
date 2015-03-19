@@ -1,0 +1,12 @@
+.cm-products {
+  @include rhythm(0,2,4,0);
+  background-color: $divider-color;
+  .products_container {
+    @include container();
+  }
+  h2 {
+    text-align: center;
+    @include rhythm(0,3,4,0);
+    color: $text-color;
+  }
+}

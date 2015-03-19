@@ -1,0 +1,27 @@
+.cm-testimonial {
+  padding: 0 4%;
+  @include rhythm(0,2,2,2);
+  background-color: $text-color;
+  @include span(1 of 3);
+  &:last-child {
+    @include last;
+  }
+  img {
+    @include border-radius(40em);
+    border: 0.5em solid $blue;
+  }
+  p, h3, h4 {
+    padding: 0;
+    margin: 0;
+  }
+  h4 {
+    font-style: italic;
+  }
+  h3 {
+    text-transform: uppercase;
+  }
+  p {
+    @include rhythm(0,1,0,0);
+  }
+}
+

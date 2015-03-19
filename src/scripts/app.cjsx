@@ -1,7 +1,9 @@
 Link = require('react-router').Link
 RouteHandler = require('react-router').RouteHandler
 Header = require('./components/header');
-Footer = require('./components/footer');
+Info = require('./components/info');
+Products = require('./components/products');
+Testimonials = require('./components/testimonials');
 
 
 # Provides global navigation for app e.g. the "Hello | Styleguide" at the top.
@@ -10,5 +12,7 @@ module.exports = React.createClass
   render: ->
     <div class='css_challenge_app'>
       <Header />
-      <Footer />
+      <Info />
+      <Products />
+      <Testimonials />
     </div>

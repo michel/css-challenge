@@ -1,5 +1,7 @@
 $susy: (
   columns: 12,  // The number of columns in your grid
+  container: 940px,
+  gutters: 1/10,
   debug: (
     image: show,
     output: overlay
@@ -22,5 +24,4 @@ body {
   color: $primary-text-color;
   text-rendering: optimizeLegibility;
   word-wrap: break;
-  @include container();
 }

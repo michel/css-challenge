@@ -1,8 +1,7 @@
-@import "../_default_includes";
-
 .cm-button {
   background-color: $accent-color;
   color: $text-color;
-  padding: $default-spacing;
+  padding: 0 $default-spacing;
+  @include rhythm(0,0.5,0.5,0);
   display: inline-block;
 }

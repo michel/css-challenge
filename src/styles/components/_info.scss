@@ -1,0 +1,10 @@
+.cm-info {
+  @include rhythm(0,3,4,0);
+  @include container();
+  text-align: center;
+  h2 {
+    padding: 0px;
+    margin: 0px;
+    @include rhythm(0,0,2,0);
+  }
+}

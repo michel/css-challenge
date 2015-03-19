@@ -1,18 +1,19 @@
-@import "../_default_includes";
 .cm-header {
   background: $primary-color;
   text-align: center;
   color: $text-color;
-  padding: 2em;
+  @include rhythm(0,5,3,0);
   .header_container {
     margin: auto;
   }
+  .header_container {
+    @include container();
+  }
   h1 {
+    padding: 0;
+    margin: 0;
     font-size: $font-size-x-large;
-    margin: $default-spacing * 0.5;
   }
   p {
-    margin-top: $default-spacing;
-    margin-bottom: 5 * $default-spacing;
   }
 }

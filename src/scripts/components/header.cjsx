@@ -1,4 +1,3 @@
-require('../../styles/components/_header.scss');
 Button = require('./button');
 
 module.exports = React.createClass

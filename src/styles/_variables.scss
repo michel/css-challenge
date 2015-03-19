@@ -8,6 +8,12 @@ $secondary-color: #727272;
 $divider-color: #B6B6B6;
 $default-spacing: 0.5em;
 
-$font-size-x-large: 3em;
-$font-size-large: 1.2em;
-$font-size-medium: 1em;
+$font-size-x-large: ($base-font-size * 2.7);
+$font-size-large: ($base-font-size * 2);
+$font-size-medium: ($base-font-size * 1.1);
+
+$orange: #fC582F;
+$green: #8CC252;
+$lgreen: #CDDA48;
+$blue: #1DAAF1;
+$yellow: #FEC02E;

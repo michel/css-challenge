@@ -33,7 +33,9 @@ module.exports = {
         "includePaths[]=" +
         (path.resolve(__dirname, "./node_modules"))},
       { test: /\.cjsx$/, loaders: ['react-hot', 'coffee', 'cjsx']},
-      { test: /\.coffee$/, loader: 'coffee' }
+      { test: /\.coffee$/, loader: 'coffee' },
+      { test: /\.png$/, loader: "url-loader?mimetype=image/png" },
+      { test: /\.jpg$/, loader: "url-loader?mimetype=image/jpg" },
     ]
   }
 };

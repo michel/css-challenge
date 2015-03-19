@@ -1,0 +1,30 @@
+.cm-product {
+  padding: 0 3%;
+  text-align: center;
+  color: $text-color;
+
+  &.mouse { background-color: $orange }
+  &.stats { background-color: $green }
+  &.speaker { background-color: $lgreen }
+  &.pda { background-color: $blue }
+  &.webcam { background-color: $yellow }
+
+  &.mouse, &.stats {
+    @include rhythm(0,2,1,0);
+    @include span(1 of 2);
+  }
+  &.stats {
+    @include last;
+  }
+  &.speaker, &.pda, &.webcam {
+    @include span(1 of 3);
+    @include rhythm(1,2,1,0);
+  }
+  &.webcam {
+    @include last;
+  }
+
+  .cm-button {
+    background-color: $divider-color;
+  }
+}

@@ -1,0 +1,14 @@
+.cm-testimonials {
+  text-align: center;
+  background-color: $blue;
+  .testimonials-container {
+    @include container();
+  }
+  h2 {
+    color: $text-color;
+    padding: 0px;
+    margin: 0px;
+    @include rhythm(0,2,0,3);
+  }
+}
+
